@@ -1,6 +1,6 @@
-# Portfólio Pessoal — Luiz Ricardo de França Veloso
+# Portfólio Pessoal — Luiz Veloso
 
-**Aluno:** Luiz Ricardo de França Veloso  
+**Aluno:** Luiz Veloso  
 **Repositório:** [github.com/luizrfv/DS15_PersPort](https://github.com/luizrfv/DS15_PersPort)  
 **Link do site publicado (GitHub Pages):** [https://luizrfv.github.io/DS15_PersPort/](https://luizrfv.github.io/DS15_PersPort/)
 
@@ -8,9 +8,8 @@
 
 ## Descrição do Portfólio
 
-Aplicação web responsiva desenvolvida como evolução do projeto de portfólio pessoal da disciplina de Desenvolvimento de Sistemas. O site apresenta a trajetória profissional e acadêmica de Luiz Ricardo de França Veloso, conectando sua atuação em **Gestão de Produtos e Meios de Pagamento**, sua formação em **Ciências Econômicas (UFABC)** e **Desenvolvimento de Sistemas (ETEC)**, além de projetos práticos em programação, análise de dados e microeconomia aplicada.
+Aplicação web responsiva desenvolvida como evolução do projeto de portfólio pessoal da disciplina de Desenvolvimento de Sistemas. O site apresenta a trajetória profissional e acadêmica de Luiz, conectando sua atuação em **Gestão de Produtos e Meios de Pagamento**, sua formação interdisciplinar no Bacharelado em Ciências & Humanidades, Ciências Econômicas (UFABC) e **Desenvolvimento de Sistemas (ETEC)**, além de projetos práticos em programação, análise de dados e microeconomia aplicada.
 
-A identidade visual foi construída em tons de **Azul Oceano**, transmitindo clareza, confiança e estética tecnológica.
 
 ---
 
@@ -21,6 +20,7 @@ A identidade visual foi construída em tons de **Azul Oceano**, transmitindo cla
 - **Bootstrap 5.3 & Bootstrap Icons:** Sistema de grid responsivo, barra de navegação fixa (`navbar`), componentes de cartões (`cards`), badges e formulários.
 - **JavaScript (ES6+):** Manipulação do DOM para filtragem dinâmica de projetos, controle de estado da navegação e validação interativa do formulário de contato.
 - **Git & GitHub Pages:** Versionamento de código e hospedagem estática.
+- **R:** Análises econométricas.
 
 ---
 
