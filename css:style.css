@@ -1,0 +1,276 @@
+/* ==========================================================================
+   Identidade Visual: Azul Oceano (Plenitude, Confiança e Tecnologia)
+   ========================================================================== */
+
+:root {
+  --ocean-abyss: #06283D;
+  --ocean-deep: #0A4D68;
+  --ocean-primary: #088395;
+  --ocean-glow: #05BFDB;
+  --ocean-soft: #E0F4F8;
+  --ocean-surface: #F4F9FB;
+  --text-dark: #102A43;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text-dark);
+  background-color: #ffffff;
+  padding-top: 68px;
+}
+
+/* Utilitários de Cor */
+.bg-ocean-surface {
+  background-color: var(--ocean-surface);
+}
+
+.bg-ocean-soft {
+  background-color: var(--ocean-soft);
+}
+
+.text-ocean {
+  color: var(--ocean-primary);
+}
+
+.text-ocean-light {
+  color: #D9F2F7;
+}
+
+.max-w-600 {
+  max-width: 600px;
+}
+
+/* Navbar */
+.ocean-navbar {
+  background-color: rgba(6, 40, 61, 0.95);
+  backdrop-filter: blur(10px);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.ocean-navbar.scrolled {
+  box-shadow: 0 6px 24px rgba(6, 40, 61, 0.25);
+  background-color: rgba(6, 40, 61, 0.99);
+}
+
+.brand-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ocean-glow), var(--ocean-primary));
+  display: inline-block;
+}
+
+.navbar-dark .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link.active {
+  color: var(--ocean-glow);
+}
+
+/* Seção Hero / Perfil */
+.hero-section {
+  min-height: calc(100vh - 68px);
+  background: linear-gradient(135deg, var(--ocean-abyss) 0%, var(--ocean-deep) 55%, var(--ocean-primary) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.ocean-badge {
+  background-color: rgba(5, 191, 219, 0.16);
+  color: #8CF0FF;
+  border: 1px solid rgba(5, 191, 219, 0.35);
+  font-weight: 600;
+}
+
+.profile-frame {
+  width: 240px;
+  height: 240px;
+  padding: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ocean-glow), rgba(255, 255, 255, 0.2));
+  box-shadow: 0 18px 40px rgba(6, 40, 61, 0.45);
+  transition: transform 0.4s ease;
+}
+
+.profile-frame:hover {
+  transform: scale(1.03);
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 4px solid var(--ocean-abyss);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(6px);
+}
+
+/* Botões */
+.btn-ocean {
+  background-color: var(--ocean-primary);
+  border-color: var(--ocean-primary);
+  color: #ffffff;
+  transition: all 0.25s ease;
+}
+
+.btn-ocean:hover {
+  background-color: var(--ocean-deep);
+  border-color: var(--ocean-deep);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.btn-ocean-light {
+  background-color: #ffffff;
+  color: var(--ocean-abyss);
+  border: none;
+  transition: all 0.25s ease;
+}
+
+.btn-ocean-light:hover {
+  background-color: var(--ocean-soft);
+  color: var(--ocean-abyss);
+  transform: translateY(-2px);
+}
+
+.btn-outline-ocean {
+  color: var(--ocean-primary);
+  border-color: var(--ocean-primary);
+  transition: all 0.25s ease;
+}
+
+.btn-outline-ocean:hover {
+  background-color: var(--ocean-primary);
+  color: #ffffff;
+}
+
+/* Títulos de Seção */
+.section-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ocean-primary);
+}
+
+.section-title {
+  color: var(--ocean-abyss);
+}
+
+/* Cards e Animações de Hover */
+.ocean-card {
+  border-radius: 16px;
+  border: 1px solid rgba(8, 131, 149, 0.12) !important;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.ocean-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(6, 40, 61, 0.1) !important;
+  border-color: rgba(8, 131, 149, 0.4) !important;
+}
+
+.icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: var(--ocean-soft);
+  color: var(--ocean-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.skill-tag {
+  background-color: #ffffff;
+  border: 1px solid rgba(8, 131, 149, 0.25);
+  color: var(--ocean-deep);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  background-color: var(--ocean-primary);
+  color: #ffffff;
+  border-color: var(--ocean-primary);
+}
+
+/* Filtros de Projeto */
+.filter-btn {
+  border: 1px solid rgba(8, 131, 149, 0.3);
+  color: var(--ocean-deep);
+  background-color: #ffffff;
+  border-radius: 999px;
+  padding: 6px 18px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: var(--ocean-primary);
+  border-color: var(--ocean-primary);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(8, 131, 149, 0.25);
+}
+
+.project-item {
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+.project-item.d-none {
+  display: none !important;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Contato e Footer */
+.ocean-contact-info {
+  border-radius: 16px;
+  background: linear-gradient(155deg, var(--ocean-abyss) 0%, var(--ocean-deep) 100%);
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.contact-link:hover .contact-icon {
+  background-color: var(--ocean-primary);
+}
+
+.ocean-footer {
+  background-color: var(--ocean-abyss);
+}

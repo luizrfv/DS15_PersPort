@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Luiz Ricardo de França Veloso — Produto, Dados, Economia e Desenvolvimento de Sistemas.">
+  <title>Luiz Veloso | Produto, Dados & Desenvolvimento</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CSS & Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarPrincipal" data-bs-offset="80">
+
+  <!-- Menu de Navegação Funcional -->
+  <nav id="navbarPrincipal" class="navbar navbar-expand-lg navbar-dark fixed-top ocean-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#perfil">
+        <span class="brand-dot"></span>
+        <span>Luiz Veloso</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" aria-controls="menuNavegacao" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuNavegacao">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2">
+          <li class="nav-item">
+            <a class="nav-link active" href="#perfil">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#formacao">Formação & Stack</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seção 1: Perfil (Hero) -->
+  <header id="perfil" class="hero-section text-white d-flex align-items-center">
+    <div class="container py-5">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7">
+          <span class="badge ocean-badge mb-3 px-3 py-2">
+            <i class="bi bi-water me-1"></i> Produto • Dados • Desenvolvimento de Sistemas
+          </span>
+          <h1 class="display-5 fw-bold mb-3">
+            Luiz Ricardo de França Veloso
+          </h1>
+          <p class="lead text-ocean-light mb-4">
+            Analista de Projetos em Meios de Pagamento com formação em <strong>Ciências Econômicas (UFABC)</strong>, experiência internacional na <strong>Università di Trento</strong> e especialização técnica em <strong>Desenvolvimento de Sistemas (ETEC)</strong>.
+          </p>
+          <p class="text-white-50 mb-4">
+            Conecto visão analítica de negócios, modelagem econométrica e engenharia de software para construir soluções digitais orientadas a dados e eficiência operacional.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#projetos" class="btn btn-ocean-light btn-lg fw-semibold px-4">
+              Explorar Projetos
+            </a>
+            <a href="https://github.com/luizrfv" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg px-4">
+              <i class="bi bi-github me-2"></i>GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-5 text-center">
+          <div class="profile-frame mx-auto">
+            <img 
+              src="https://github.com/luizrfv.png" 
+              onerror="this.src='https://ui-avatars.com/api/?name=Luiz+Veloso&background=088395&color=fff&size=280'" 
+              alt="Foto de perfil de Luiz Ricardo de França Veloso" 
+              class="img-fluid rounded-circle profile-img"
+            >
+          </div>
+          <div class="mt-3 d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill glass-pill">
+            <i class="bi bi-geo-alt-fill text-info"></i>
+            <small>São Bernardo do Campo, SP</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção 2 (Recurso Novo): Formação Acadêmica & Stack Tecnológica -->
+    <section id="formacao" class="py-5 bg-ocean-surface">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <span class="section-subtitle">Trajetória & Competências</span>
+          <h2 class="fw-bold section-title mt-1">Formação e Stack Tecnológica</h2>
+          <p class="text-muted mx-auto max-w-600">
+            Base multidisciplinar que integra economia quantitativa, gestão de produtos e desenvolvimento de software.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Coluna Formação -->
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100 ocean-card p-4">
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="icon-box">
+                  <i class="bi bi-mortarboard-fill"></i>
+                </div>
+                <h3 class="h5 fw-bold mb-0">Formação Acadêmica & Certificações</h3>
+              </div>
+
+              <ul class="list-unstyled timeline-list mb-0">
+                <li class="mb-3 pb-3 border-bottom">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h4 class="h6 fw-bold mb-1">Técnico em Desenvolvimento de Sistemas</h4>
+                    <span class="badge bg-ocean-soft text-ocean">Em curso</span>
+                  </div>
+                  <p class="small text-muted mb-0">ETEC — Escola Técnica Estadual de São Paulo</p>
+                </li>
+                <li class="mb-3 pb-3 border-bottom">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h4 class="h6 fw-bold mb-1">Bacharelado em Filosofia</h4>
+                    <span class="badge bg-ocean-soft text-ocean">Em curso</span>
+                  </div>
+                  <p class="small text-muted mb-0">Universidade Federal do ABC (UFABC)</p>
+                </li>
+                <li class="mb-3 pb-3 border-bottom">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h4 class="h6 fw-bold mb-1">Bacharelado em Ciências Econômicas & Ciências e Humanidades</h4>
+                    <span class="badge bg-light text-secondary border">Concluído</span>
+                  </div>
+                  <p class="small text-muted mb-0">UFABC • Intercâmbio na School of Innovation — Università di Trento (Itália)</p>
+                </li>
+                <li>
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h4 class="h6 fw-bold mb-1">Six Sigma Black Belt Specialization</h4>
+                    <span class="badge bg-light text-secondary border">Certificação</span>
+                  </div>
+                  <p class="small text-muted mb-0">Kennesaw State University</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Coluna Competências Técnicas -->
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100 ocean-card p-4">
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="icon-box">
+                  <i class="bi bi-cpu-fill"></i>
+                </div>
+                <h3 class="h5 fw-bold mb-0">Ferramentas & Tecnologias</h3>
+              </div>
+
+              <div class="mb-4">
+                <h4 class="h6 fw-semibold text-ocean mb-2">Desenvolvimento Web & Programação</h4>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="skill-tag">Python</span>
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">Bootstrap 5</span>
+                  <span class="skill-tag">Git & GitHub</span>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <h4 class="h6 fw-semibold text-ocean mb-2">Dados, Econometria & Automação</h4>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="skill-tag">Linguagem R</span>
+                  <span class="skill-tag">SQL Server</span>
+                  <span class="skill-tag">Power BI</span>
+                  <span class="skill-tag">VBA & Access</span>
+                  <span class="skill-tag">Microdados PNAD</span>
+                </div>
+              </div>
+
+              <div>
+                <h4 class="h6 fw-semibold text-ocean mb-2">Produto, ERP & Processos</h4>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="skill-tag">Product Management</span>
+                  <span class="skill-tag">SAP ECC / S/4HANA</span>
+                  <span class="skill-tag">Bizagi (BPMN)</span>
+                  <span class="skill-tag">Miro</span>
+                  <span class="skill-tag">Monday.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 3: Projetos com Filtro Interativo (Recurso Novo em JS) -->
+    <section id="projetos" class="py-5">
+      <div class="container py-4">
+        <div class="text-center mb-4">
+          <span class="section-subtitle">Portfólio Técnico</span>
+          <h2 class="fw-bold section-title mt-1">Projetos em Destaque</h2>
+          <p class="text-muted mx-auto max-w-600">
+            Filtre por área de atuação para explorar aplicações em desenvolvimento de software, análise microeconômica e gestão de produtos.
+          </p>
+        </div>
+
+        <!-- Botões de Filtro Dinâmico (JavaScript) -->
+        <div class="d-flex flex-wrap justify-content-center gap-2 mb-4" role="group" aria-label="Filtro de projetos">
+          <button type="button" class="btn filter-btn active" data-filter="todos">Todos os Projetos</button>
+          <button type="button" class="btn filter-btn" data-filter="desenvolvimento">Desenvolvimento</button>
+          <button type="button" class="btn filter-btn" data-filter="dados">Dados & Microeconomia</button>
+          <button type="button" class="btn filter-btn" data-filter="produto">Produto & Processos</button>
+        </div>
+
+        <p id="contadorProjetos" class="text-center small text-muted mb-4">
+          Exibindo 4 projetos
+        </p>
+
+        <!-- Grade de Projetos -->
+        <div class="row g-4" id="listaProjetos">
+          <!-- Projeto 1 -->
+          <div class="col-md-6 project-item" data-category="desenvolvimento">
+            <article class="card h-100 border-0 shadow-sm ocean-card">
+              <div class="card-body p-4 d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="badge bg-ocean-soft text-ocean">Desenvolvimento</span>
+                  <i class="bi bi-droplet-half fs-4 text-ocean"></i>
+                </div>
+                <h3 class="h5 fw-bold mb-2">Monitoramento de Reservatórios e Consumo Hídrico</h3>
+                <p class="text-muted small flex-grow-1">
+                  Aplicações desenvolvidas em Python para leitura de níveis de reservatórios e classificação automatizada de faixas de consumo de água, estruturando regras de alerta e diagnóstico operacional.
+                </p>
+                <div class="d-flex flex-wrap gap-1 mb-3">
+                  <span class="badge bg-light text-dark border">Python</span>
+                  <span class="badge bg-light text-dark border">Lógica de Programação</span>
+                  <span class="badge bg-light text-dark border">GitHub</span>
+                </div>
+                <a href="https://github.com/luizrfv" target="_blank" rel="noopener noreferrer" class="btn btn-outline-ocean btn-sm align-self-start">
+                  <i class="bi bi-code-slash me-1"></i>Ver código no GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="col-md-6 project-item" data-category="dados">
+            <article class="card h-100 border-0 shadow-sm ocean-card">
+              <div class="card-body p-4 d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="badge bg-ocean-soft text-ocean">Dados & Microeconomia</span>
+                  <i class="bi bi-graph-up-arrow fs-4 text-ocean"></i>
+                </div>
+                <h3 class="h5 fw-bold mb-2">Análise Microeconômica de Rendimentos (PNAD Contínua)</h3>
+                <p class="text-muted small flex-grow-1">
+                  Modelagem econométrica em linguagem R utilizando microdados da PNAD Contínua para investigar diferenciais estruturais de rendimentos e determinantes do mercado de trabalho sob a ótica da microeconomia aplicada.
+                </p>
+                <div class="d-flex flex-wrap gap-1 mb-3">
+                  <span class="badge bg-light text-dark border">R</span>
+                  <span class="badge bg-light text-dark border">Econometria</span>
+                  <span class="badge bg-light text-dark border">Microeconomia</span>
+                  <span class="badge bg-light text-dark border">PNAD Contínua</span>
+                </div>
+                <a href="https://github.com/luizrfv" target="_blank" rel="noopener noreferrer" class="btn btn-outline-ocean btn-sm align-self-start">
+                  <i class="bi bi-bar-chart-line me-1"></i>Explorar análises
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="col-md-6 project-item" data-category="dados">
+            <article class="card h-100 border-0 shadow-sm ocean-card">
+              <div class="card-body p-4 d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="badge bg-ocean-soft text-ocean">Dados & Automação</span>
+                  <i class="bi bi-database-check fs-4 text-ocean"></i>
+                </div>
+                <h3 class="h5 fw-bold mb-2">Pipelines de Dados e Indicadores Executivos</h3>
+                <p class="text-muted small flex-grow-1">
+                  Estruturação de consultas em SQL Server, rotinas de automação em Python e VBA e construção de painéis analíticos em Power BI para monitoramento de KPIs e redução de tarefas operacionais manuais.
+                </p>
+                <div class="d-flex flex-wrap gap-1 mb-3">
+                  <span class="badge bg-light text-dark border">SQL Server</span>
+                  <span class="badge bg-light text-dark border">Power BI</span>
+                  <span class="badge bg-light text-dark border">Python</span>
+                  <span class="badge bg-light text-dark border">VBA</span>
+                </div>
+                <a href="https://github.com/luizrfv" target="_blank" rel="noopener noreferrer" class="btn btn-outline-ocean btn-sm align-self-start">
+                  <i class="bi bi-github me-1"></i>Repositórios
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Projeto 4 -->
+          <div class="col-md-6 project-item" data-category="produto">
+            <article class="card h-100 border-0 shadow-sm ocean-card">
+              <div class="card-body p-4 d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="badge bg-ocean-soft text-ocean">Produto & Processos</span>
+                  <i class="bi bi-kanban fs-4 text-ocean"></i>
+                </div>
+                <h3 class="h5 fw-bold mb-2">Arquitetura de Fluxos e Projetos em Meios de Pagamento</h3>
+                <p class="text-muted small flex-grow-1">
+                  Mapeamento de processos ponta a ponta (BPMN), levantamento de requisitos funcionais, homologação de sistemas e gestão de entregas regulatórias e de produto no ecossistema de pagamentos.
+                </p>
+                <div class="d-flex flex-wrap gap-1 mb-3">
+                  <span class="badge bg-light text-dark border">Product Management</span>
+                  <span class="badge bg-light text-dark border">Bizagi / BPMN</span>
+                  <span class="badge bg-light text-dark border">Six Sigma</span>
+                  <span class="badge bg-light text-dark border">SAP</span>
+                </div>
+                <a href="#contato" class="btn btn-outline-ocean btn-sm align-self-start">
+                  <i class="bi bi-chat-dots me-1"></i>Conversar sobre Produto
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 4: Contato -->
+    <section id="contato" class="py-5 bg-ocean-surface">
+      <div class="container py-4">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-5">
+            <div class="card border-0 shadow-sm h-100 ocean-contact-info text-white p-4">
+              <span class="badge ocean-badge align-self-start mb-3">Conexão</span>
+              <h2 class="h3 fw-bold mb-3">Vamos conversar?</h2>
+              <p class="text-ocean-light mb-4">
+                Aberto a trocas sobre <strong>Gestão de Produtos</strong>, <strong>Ciência de Dados</strong>, <strong>Economia Aplicada</strong> e <strong>Desenvolvimento Web</strong>.
+              </p>
+
+              <div class="d-flex flex-column gap-3 mt-auto">
+                <a href="https://github.com/luizrfv" target="_blank" rel="noopener noreferrer" class="contact-link d-flex align-items-center gap-3 text-white text-decoration-none">
+                  <div class="contact-icon"><i class="bi bi-github"></i></div>
+                  <div>
+                    <div class="small text-white-50">GitHub</div>
+                    <div class="fw-semibold">github.com/luizrfv</div>
+                  </div>
+                </a>
+
+                <div class="d-flex align-items-center gap-3">
+                  <div class="contact-icon"><i class="bi bi-geo-alt"></i></div>
+                  <div>
+                    <div class="small text-white-50">Localização</div>
+                    <div class="fw-semibold">São Bernardo do Campo, SP — Brasil</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="card border-0 shadow-sm h-100 ocean-card p-4">
+              <h3 class="h5 fw-bold mb-3">Envie uma mensagem</h3>
+              <form id="formContato" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="nomeContato" class="form-label small fw-semibold">Seu nome</label>
+                    <input type="text" class="form-control" id="nomeContato" placeholder="Ex.: Ana Silva" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="emailContato" class="form-label small fw-semibold">Seu e-mail</label>
+                    <input type="email" class="form-control" id="emailContato" placeholder="nome@exemplo.com" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="assuntoContato" class="form-label small fw-semibold">Assunto</label>
+                    <select class="form-select" id="assuntoContato">
+                      <option value="Produto & Projetos">Oportunidade em Produto / Projetos</option>
+                      <option value="Dados & Economia">Análise de Dados & Economia</option>
+                      <option value="Desenvolvimento">Desenvolvimento de Sistemas</option>
+                      <option value="Networking">Networking</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="mensagemContato" class="form-label small fw-semibold">Mensagem</label>
+                    <textarea class="form-control" id="mensagemContato" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-ocean px-4 py-2 fw-semibold">
+                      <i class="bi bi-send me-2"></i>Enviar Mensagem
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <!-- Alerta de confirmação controlado via JavaScript -->
+              <div id="feedbackContato" class="alert alert-info mt-3 d-none mb-0" role="alert"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="ocean-footer text-white-50 py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <small>&copy; 2026 Luiz Ricardo de França Veloso. Todos os direitos reservados.</small>
+      <small>Desenvolvido com HTML5, CSS3, Bootstrap 5 & JavaScript.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script Personalizado -->
+  <script src="js/script.js"></script>
+</body>
+</html>
